@@ -221,7 +221,7 @@ class CreateCountries < ActiveRecord::Migration
     Country.create(:name => 'Sweden', :iso3 => 'SWE', :iso2 => 'SE', :numcode => 752)
     Country.create(:name => 'Switzerland', :iso3 => 'CHE', :iso2 => 'CH', :numcode => 756)
     Country.create(:name => 'Syrian Arab Republic', :iso3 => 'SYR', :iso2 => 'SY', :numcode => 760)
-    Country.create(:name => 'Taiwan, Province of China', :iso3 => 'TWN', :iso2 => 'TW', :numcode => 158)
+    Country.create(:name => 'Taiwan', :iso3 => 'TWN', :iso2 => 'TW', :numcode => 158)
     Country.create(:name => 'Tajikistan', :iso3 => 'TJK', :iso2 => 'TJ', :numcode => 762)
     Country.create(:name => 'Tanzania, United Republic of', :iso3 => 'TZA', :iso2 => 'TZ', :numcode => 834)
     Country.create(:name => 'Thailand', :iso3 => 'THA', :iso2 => 'TH', :numcode => 764)
